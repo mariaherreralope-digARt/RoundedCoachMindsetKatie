@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="1200" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMidYMid meet">
+  <!--
+    Flower-of-life style concentric/overlapping circle geometry.
+    Stroke uses currentColor so you can recolor the SVG when embedding inline or with CSS.
+  -->
+  <defs>
+    <style>
+      .g-stroke { fill: none; stroke: #d0c9c0; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; opacity: 0.35; }
+    </style>
+  </defs>
+
+  <!-- background optional -->
+  <rect x="-600" y="-600" width="1200" height="1200" fill="transparent"/>
+
+  <!-- central ring (radius = 120) -->
+  <g id="flower" transform="scale(1)">
+    <!-- central circle -->
+    <circle class="g-stroke" cx="0" cy="0" r="120"/>
+
+    <!-- six around central (hexagon) -->
+    <g transform="translate(0,0)">
+      <circle class="g-stroke" cx="120" cy="0"    r="120"/>
+      <circle class="g-stroke" cx="60"  cy="104"  r="120"/>
+      <circle class="g-stroke" cx="-60" cy="104"  r="120"/>
+      <circle class="g-stroke" cx="-120" cy="0"   r="120"/>
+      <circle class="g-stroke" cx="-60" cy="-104" r="120"/>
+      <circle class="g-stroke" cx="60"  cy="-104" r="120"/>
+    </g>
+
+    <!-- outer ring (second octave) — shifted hexagon centers at 2x radius -->
+    <g transform="scale(1)">
+      <circle class="g-stroke" cx="240" cy="0"    r="120" opacity="0.95"/>
+      <circle class="g-stroke" cx="120" cy="208"  r="120" opacity="0.95"/>
+      <circle class="g-stroke" cx="-120" cy="208" r="120" opacity="0.95"/>
+      <circle class="g-stroke" cx="-240" cy="0"   r="120" opacity="0.95"/>
+      <circle class="g-stroke" cx="-120" cy="-208" r="120" opacity="0.95"/>
+      <circle class="g-stroke" cx="120" cy="-208" r="120" opacity="0.95"/>
+    </g>
+
+    <!-- concentric guide rings for the 'circle of life' look -->
+    <!-- <circle class="g-stroke" cx="0" cy="0" r="360" opacity="0.45" stroke-dasharray="6 10"/>
+    <circle class="g-stroke" cx="0" cy="0" r="480" opacity="0.25" stroke-dasharray="3 14"/> -->
+  </g>
+
+  <!-- fine accent strokes (thin) -->
+  <!-- <g>
+    <g stroke="#2c343c" stroke-width="1.5" fill="none" opacity="0.55">
+      <circle cx="0" cy="0" r="60"/>
+      <circle cx="180" cy="0" r="60"/>
+      <circle cx="90" cy="156" r="60"/>
+      <circle cx="-90" cy="156" r="60"/>
+      <circle cx="-180" cy="0" r="60"/>
+      <circle cx="-90" cy="-156" r="60"/>
+      <circle cx="90" cy="-156" r="60"/>
+    </g>
+  </g> -->
+</svg>

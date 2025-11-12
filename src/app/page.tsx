@@ -6,6 +6,10 @@ import HeroRevival from "@/components/HeroRevival";
 import HeroCards from "@/components/HeroBorderLines";
 import Overlap2colPT from "@/components/SOverlap2colPT";
 import OverlapPopularPosts from "@/components/SOverlapPopularPosts";
+import SHeadingSVG from "@/components/SHeadingSVG";
+import SOverlapPortfolioGhost from "@/components/SOverlapPortfolioGhost";
+import SFeaturesDivideLineIcons from "@/components/SFeaturesDivideLineIcons";
+import SNewsletterCollageReveal from "@/components/SNewsletterCollageReveal";
 // import Hero from "@/components/Hero";
 // import AboutMe from "@/components/AboutMe";
 // import Cursos from "@/components/Cursos";
@@ -58,6 +62,10 @@ const lenis = new Lenis({
     <HeroCards />
     <Overlap2colPT />
     <OverlapPopularPosts />
+    <SHeadingSVG />
+    <SOverlapPortfolioGhost />
+    <SFeaturesDivideLineIcons />
+    <SNewsletterCollageReveal />
       {/* <Hero />
       <OurPhilosophy />
       <NewComponentTrial paragraph={paragraph} />

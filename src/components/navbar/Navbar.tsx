@@ -47,7 +47,7 @@ const Navbar = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 2.8 }}
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        scrolled ? "bg-light shadow-md" : "bg-transparent"
+        scrolled ? "bg-transparent shadow-none" : "bg-transparent"
       }`}
     >
       <div
@@ -64,10 +64,10 @@ const Navbar = () => {
         </div>
 
         {/* Center Logo */}
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+        {/* <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
           <Logo setActiveLink={setActiveLink} isMenuOpen={isMenuOpen}
           scrolled={scrolled} />
-        </div>
+        </div> */}
 
         {/* Contact Button */}
         <ContactButton isMenuOpen={isMenuOpen}

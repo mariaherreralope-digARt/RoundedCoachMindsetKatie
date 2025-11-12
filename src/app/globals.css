@@ -17,12 +17,16 @@
 
 @theme {
 
-  --color-dark: #6d8b74;
+  /* COLORS */
+
+  --color-dark: #6d8b74; 
   --color-darker: #5f7161;
-  --color-accent: #f7f3f0;
-  --color-btt: #6d152b;
   --color-light: #d0c9c0;
   --color-lighter: #efead8;
+  --color-accent: #f7f3f0;
+  --color-btt: #6d152b;
+
+  /* FONTS   */
 
   /* --font-heading: "Montserrat", "serif";
   --font-body: "Lora", "serif";  */
@@ -44,22 +48,17 @@
 
 
   /* @layer components {
-    .btn {
-      @apply px-4 py-2 rounded-md font-semibold transition-colors duration-300;
-    }
-    .btn-primary {
+
+  /* BUTTONS */
+    /* 
+    .btn-rounded {
       @apply bg-primary text-white hover:bg-opacity-90;
     }
-    .btn-secondary {
+    .btn-squared {
       @apply bg-secondary text-black hover:bg-opacity-90;
     }
-    .btn-accent {
-      @apply bg-accent text-black hover:bg-opacity-90;
-    }
-    .btn-btt {
-      @apply bg-btt text-black hover:text-white;
-    }
-  } */
+    
+  } */ 
 
 
   /* --font-display: "Satoshi", "sans-serif";

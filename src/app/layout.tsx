@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { ModalProvider } from "@/context/ModalContext";
-import CookieConsentBanner from "@/components/CookieConsentBanner";
-import GlobalModal from "@/components/GlobalModal";
-import CustomCursor from "@/components/CustomCursor";
+import CookieConsentBanner from "@/components/LegalCookieConsentBanner";
+import GlobalModal from "@/components/ContactGlobalModal";
+import CustomCursor from "@/components/AddCustomCursor";
 import Navbar from "@/components/navbar/Navbar";
 
 export const metadata: Metadata = {

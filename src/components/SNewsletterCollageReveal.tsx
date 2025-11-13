@@ -38,14 +38,7 @@ export default function SNewsletterCollageReveal() {
             initial={{
   opacity: 0,
   scale: 0.4,
-  x:
-    img.className.includes("left") ? 150 :
-    img.className.includes("right") ? -150 :
-    0,
-  y:
-    img.className.includes("top") ? 150 :
-    img.className.includes("bottom") ? -150 :
-    0,
+  
 }}
 
             animate={{
@@ -53,6 +46,7 @@ export default function SNewsletterCollageReveal() {
               scale: 1,
               x: 0,
               y: 0,
+              
             }}
             transition={{
               duration: 1,

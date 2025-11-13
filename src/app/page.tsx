@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Lenis from 'lenis';
 
 import HeroRevival from "@/components/HeroRevival";
 import HeroCards from "@/components/HeroBorderLines";
@@ -10,6 +11,8 @@ import SHeadingSVG from "@/components/SHeadingSVG";
 import SOverlapPortfolioGhost from "@/components/SOverlapPortfolioGhost";
 import SFeaturesDivideLineIcons from "@/components/SFeaturesDivideLineIcons";
 import SNewsletterCollageReveal from "@/components/SNewsletterCollageReveal";
+import SOverlapVerticalTextBox from "@/components/SOverlapVerticalTextBox";
+
 // import Hero from "@/components/Hero";
 // import AboutMe from "@/components/AboutMe";
 // import Cursos from "@/components/Cursos";
@@ -28,21 +31,20 @@ import SNewsletterCollageReveal from "@/components/SNewsletterCollageReveal";
 // import TextParallax from "@/components/TextParallax";
 // import TextParallaxQA from "@/components/TextParallaxQA";
 
-import Lenis from 'lenis';
 
-const paragraph =
-  "Your journey deserves guidance you can trust, an environment that feels safe, and a space designed with intention.";
+// const paragraph =
+//   "Your journey deserves guidance you can trust, an environment that feels safe, and a space designed with intention.";
 
-  const paragraph1 =
-  "Every journey is unique — that’s why we offer retreats designed to nurture mind, body, and spirit in different ways.";
+//   const paragraph1 =
+//   "Every journey is unique — that’s why we offer retreats designed to nurture mind, body, and spirit in different ways.";
 
-  const paragraph2 =
-  "We know you may have questions — here are clear answers to help you feel confident before beginning your journey with us.";
+//   const paragraph2 =
+//   "We know you may have questions — here are clear answers to help you feel confident before beginning your journey with us.";
    
 
  
 export default function HomePage() {
-  const words = paragraph.split(" ");
+  // const words = paragraph.split(" ");
 
   useEffect(() => {
 // Initialize Lenis
@@ -66,6 +68,7 @@ const lenis = new Lenis({
     <SOverlapPortfolioGhost />
     <SFeaturesDivideLineIcons />
     <SNewsletterCollageReveal />
+    <SOverlapVerticalTextBox />
       {/* <Hero />
       <OurPhilosophy />
       <NewComponentTrial paragraph={paragraph} />

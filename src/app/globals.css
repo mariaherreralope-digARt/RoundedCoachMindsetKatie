@@ -51,7 +51,7 @@ html, body {
     --color-btt: #; 
   */
    --color-dark: #A16B55; /*brown*/
-    --color-darker: #B2AFA9; /*dark gray*/
+    --color-darker: #4B3E47; /*dark gray*/
     --color-light: #E1CFBB; /*pink*/
     --color-lighter: #F6F6F6; /*light gray*/
     --color-accent: #;
@@ -99,7 +99,8 @@ html, body {
 /* ---------------- Reusable Utility Classes ---------------- */
 @layer components {
 .btn-rounded {
-  @apply bg-dark text-lighter rounded-full px-5 py-3 hover:opacity-90 transition;
+  @apply bg-btt text-lighter uppercase text-sm 
+  font-light  font-body rounded-tl-3xl rounded-br-3xl px-6 py-2 hover:opacity-90 transition;
 }
 
 .btn-squared {
@@ -140,4 +141,8 @@ html, body {
   background-position: center;
   background-size: cover;
 }
+}
+
+.outline-inset {
+  outline-offset: -8px;
 }

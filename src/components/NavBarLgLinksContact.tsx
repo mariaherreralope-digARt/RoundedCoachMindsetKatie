@@ -47,7 +47,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white px-6 py-4 space-y-4">
+        <div className="md:hidden bg-dark px-6 py-4 space-y-4 text-light">
           <a className="block">Home</a>
           <a className="block">About</a>
           <a className="block">Services</a>

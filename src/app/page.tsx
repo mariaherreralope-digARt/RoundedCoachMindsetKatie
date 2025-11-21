@@ -37,11 +37,12 @@ const lenis = new Lenis({
 <TextOsTPBtn />
 <SRoundAboutMe />
 <SFeaturesDivideLineIcons />
+<Newsletter />
+
 <SRound4Cards />
 <SRound2ColTxtImg />
 <S4Cards />
 <TextRoundBoxBtn />
-<Newsletter />
 <Footer />
 
 

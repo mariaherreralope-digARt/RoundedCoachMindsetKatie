@@ -26,7 +26,7 @@ const cardsData = [
 
 export default function S4Cards(){
   return (
-    <section className="bg-light flex flex-col items-center justify-center py-16 px-4  md:px-8">
+    <section className="bg-light flex flex-col items-center justify-center py-16 px-16  md:px-8">
       <div className="max-w-2xl mx-auto flex flex-col items-center justify-center text-dark">
        <p className="oversection text-darker pb-4 ">
           Videos

@@ -68,7 +68,7 @@ export default function SFeaturesDivideLineIcons() {
         </div>
 
  <div className="
-  max-w-5xl mx-auto py-16 md:pt-0 px-6 
+  max-w-5xl mx-auto pt-4 px-6 
   grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 
   gap-8 justify-items-center
 ">

@@ -24,9 +24,9 @@ const cardsData = [
     description: "A supportive pathway for those ready to understand manifestation beyond trends — learning how intention, vibration, and aligned action come together to create real change." },
 ];
 
-export default function Hero1Round3PicsText(){
+export default function SRound4Cards(){
   return (
-    <section className="bg-gradient-to-b from-lighter via-light/50 to-light flex flex-col items-center justify-center py-16 px-4  md:px-8">
+    <section className="bg-gradient-to-b from-lighter via-light/50 to-light flex flex-col items-center justify-center py-16 px-16  md:px-8">
       <div className="max-w-2xl mx-auto flex flex-col items-center justify-center text-dark">
        <p className="oversection text-darker mb-6 ">
           Our Services

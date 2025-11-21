@@ -8,8 +8,8 @@ import Navbar from "@/components/Navbar";
 // import NavBarLgLinksContact from "@/components/NavBarLgLinksContact";
 
 export const metadata: Metadata = {
-  title: "Retiro de Bienestar",
-  description: "Una experiencia de transformación consciente",
+  title: "Katie Mindset Coach",
+  description: "Align Your Energy. Transform Your Life.",
 };
 
 export default function RootLayout({

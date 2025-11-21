@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function TextOsTPBtn() {
   return (
-  <section className="relative bg-lighter py-24 flex justify-center items-center h-[70vh] overflow-hidden pb-16">
+  <section className="relative bg-lighter pb-8 md:pb-0 md:py-0 flex justify-center items-center h-full md:h-[70vh] overflow-hidden ">
       <motion.div
         className="relative z-10  text-dark text-center px-10 py-8 max-w-3xl "
         initial={{ scale: 0.9, opacity: 0, y: 20 }}
